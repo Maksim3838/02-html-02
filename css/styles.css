@@ -1,5 +1,6 @@
 body {
-  font-family: sans-serif;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
   color: #2e2f42;
   background: #fff;
   ul,
@@ -11,6 +12,12 @@ body {
   }
   .Logo {
     text-decoration: none;
+    font-weight: 700;
+
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
   }
   .address-link {
     text-decoration: none;
@@ -20,9 +27,11 @@ body {
 
 /* header */
 .list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
-  text-decoration: none;
-  transition: color 250ms ease-in-out;
 }
 
 /* 🟩 Наведення мишкою */
@@ -48,6 +57,10 @@ body {
 .address {
 }
 .address-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -58,31 +71,85 @@ body {
 .section {
 }
 .hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.08;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 .van {
 }
 .section-tatle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .Strategy-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
 }
 .btn {
-  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
 .section-van {
   background-color: #f4f4fd;
 }
+
+.Our-Team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.Strategy-portfolio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /* footer */
 .page-footer {
   background-color: #2e2f42;
 }
 .logo-footer-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
-  text-decoration: none;
 }
 .logo-part {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
 .footer-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
