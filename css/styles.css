@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  color: #2e2f42;
+  background: #fff;
+  ul,
+  ol {
+    list-style: none;
+  }
+  .a {
+    text-decoration: none;
+  }
+  .Logo {
+    text-decoration: none;
+  }
+  .address-link {
+    text-decoration: none;
+  }
+}
+/* github.com/YK911/basic-dictionary */
+
+/* header */
+.list-item {
+  color: #2e2f42;
+  text-decoration: none;
+  transition: color 250ms ease-in-out;
+}
+
+/* 🟩 Наведення мишкою */
+.list-item:hover {
+  color: #e6f605;
+}
+
+/* 🟩 Фокус клавіатурою */
+.list-item:focus {
+  color: #ef052c;
+}
+
+.Logo {
+  color: #4d5ae5;
+}
+.Logo-nav {
+  color: #2e2f42;
+}
+.list-item {
+  color: #2e2f42;
+}
+
+.address {
+}
+.address-link {
+  color: #434455;
+}
+
+/* main */
+.main-section {
+  background-color: #2e2f42;
+}
+.section {
+}
+.hero-title {
+  color: #fff;
+}
+.van {
+}
+.section-tatle {
+}
+.Strategy-list {
+}
+.btn {
+  background-color: #4d5ae5;
+}
+.section-van {
+  background-color: #f4f4fd;
+}
+/* footer */
+.page-footer {
+  background-color: #2e2f42;
+}
+.logo-footer-logo {
+  color: #4d5ae5;
+  text-decoration: none;
+}
+.logo-part {
+  color: #f4f4fd;
+}
+.footer-p {
+  color: #f4f4fd;
+}
